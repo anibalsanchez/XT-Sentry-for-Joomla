@@ -1,0 +1,17 @@
+{
+    "name": "XT Sentry for Joomla Library",
+    "description": "XT Sentry for Joomla Library.",
+    "autoload": {
+      "psr-4": {
+        "XTSentry\\": "src/"
+      }
+    },
+    "require": {
+        "sentry/sentry": "^1.10"
+    },
+    "require-dev": {
+        "php-http/curl-client": "^1.7",
+        "guzzlehttp/psr7": "^1.4",
+        "php-http/message": "^1.7"
+    }
+}
