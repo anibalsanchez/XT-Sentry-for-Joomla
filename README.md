@@ -28,11 +28,24 @@ To start with the configuration, first, create a new project in Sentry and find 
 
 - Finally, add the **cli/sentry.php** script to the PHP initialization following one of these methods.
 
-1. php auto_prepend, added as auto_prepare to PHP Selector -> Options: auto_prepend_file and set the full path
-1. .user.ini php auto prepend add: auto_prepend_file="/home/.../public_html/cli/sentry.php"
-1. .php ini using the same auto_prepend_file
-1. .htaccess : php_value auto_prepend_file /home/.../public_html/cli/sentry.php
-1. index.php - include it into the first line of the Joomla! Instance (index.php), this however only works for the frontend instance Joomla! no other scripts are covered.
+- php auto_prepend, added as auto_prepare to PHP Selector -> Options: auto_prepend_file and set the full path
+- .user.ini php auto prepend add: 
+
+```
+auto_prepend_file="/home/.../public_html/cli/sentry.php"
+```
+
+- .php ini using the same auto_prepend_file .htaccess : 
+
+```
+php_value auto_prepend_file /home/.../public_html/cli/sentry.php
+```
+
+- index.php - include it into the first line of the Joomla! Instance (index.php), this however only works for the frontend instance Joomla! no other scripts are covered.
+
+```
+require_once '/home/.../public_html/cli/sentry.php';
+```
 
 ## Copyright & License
 
