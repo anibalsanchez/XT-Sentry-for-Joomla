@@ -9,6 +9,7 @@ To start with the configuration, first, create a new project in Sentry and find 
 - Download and install this library. You can find the latest release [here](https://github.com/anibalsanchez/XT-Sentry-for-Joomla/releases).
 - Create a script (sentry.php) to initialize the client and copy it to the Joomla **/cli folder**. This is a sample client initialization:
 
+`php
   <?php
 
   define('JPATH_SENTRY_BASE', '/var/www/news.joocial.com/web');
@@ -23,6 +24,7 @@ To start with the configuration, first, create a new project in Sentry and find 
   $error_handler->registerExceptionHandler();
   $error_handler->registerErrorHandler();
   $error_handler->registerShutdownFunction();
+`
 
 - Finally, add the **cli/sentry.php** script to the PHP initialization following one of these methods.
 
