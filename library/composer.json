@@ -1,5 +1,5 @@
 {
-    "name": "XT Sentry for Joomla Library",
+    "name": "anibalsanchez/xt-sentry-for-joomla",
     "description": "XT Sentry for Joomla Library.",
     "autoload": {
       "psr-4": {
