@@ -10,7 +10,7 @@ To start with the configuration, first, create a new project in Sentry and find 
 - Create a script (sentry.php) to initialize the client and copy it to the Joomla **/cli folder**. This is a sample client initialization:
 
 ```php
-defined('JPATH_SENTRY_BASE') || (define('JPATH_SENTRY_BASE', '/var/www/..../web');
+<?php
 
 require_once JPATH_SENTRY_BASE . '/libraries/xtsentry/vendor/sentry/sentry/lib/Raven/Autoloader.php';
 
@@ -24,18 +24,31 @@ $error_handler->registerErrorHandler();
 $error_handler->registerShutdownFunction();
 ```
 
-TIP: [Integrating Sentry's error handler in Joomla template error page](https://blog.anibalhsanchez.com/en/10-blogging/lost-and-found/59-integrating-sentry-s-error-handler-in-joomla-template-error-page.html)
-
 - Finally, add the **cli/sentry.php** script to the PHP initialization following one of these methods.
 
-1. php auto_prepend, added as auto_prepare to PHP Selector -> Options: auto_prepend_file and set the full path
-1. .user.ini php auto prepend add: auto_prepend_file="/home/.../public_html/cli/sentry.php"
-1. .php ini using the same auto_prepend_file
-1. .htaccess : php_value auto_prepend_file /home/.../public_html/cli/sentry.php
-1. index.php - include it into the first line of the Joomla! Instance (index.php), this however only works for the frontend instance Joomla! no other scripts are covered.
+- php auto_prepend, added as auto_prepare to PHP Selector -> Options: auto_prepend_file and set the full path
+- .user.ini php auto prepend add:
+
+```
+auto_prepend_file="/home/.../public_html/cli/sentry.php"
+```
+
+- .php ini using the same auto_prepend_file .htaccess :
+
+```
+php_value auto_prepend_file /home/.../public_html/cli/sentry.php
+```
+
+- index.php - include it into the first line of the Joomla! Instance (index.php), this however only works for the frontend instance Joomla! no other scripts are covered.
+
+```
+require_once '/home/.../public_html/cli/sentry.php';
+```
+
+TIP: [Integrating Sentry's error handler in Joomla template error page](https://blog.anibalhsanchez.com/en/10-blogging/lost-and-found/59-integrating-sentry-s-error-handler-in-joomla-template-error-page.html)
 
 ## Copyright & License
 
-- Copyright (c)2007-2018 Extly, CB All rights reserved.
+- Copyright (c)2007-2019 Extly, CB All rights reserved.
 
 - Distributed under the GNU General Public License version 3 or later; see LICENSE.txt
