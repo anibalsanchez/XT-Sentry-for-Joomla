@@ -24,22 +24,22 @@ $error_handler->registerErrorHandler();
 $error_handler->registerShutdownFunction();
 ```
 
-- Finally, add the **cli/sentry.php** script to the PHP initialization following one of these methods.
+Finally, add the **cli/sentry.php** script to the PHP initialization following one of these methods.
 
-- php auto_prepend, added as auto_prepare to PHP Selector -> Options: auto_prepend_file and set the full path
-- .user.ini php auto prepend add:
+- **php auto_prepend**, added as auto_prepare to PHP Selector -> Options: auto_prepend_file and set the full path
+- **.user.ini** php auto prepend add:
 
 ```
 auto_prepend_file="/home/.../public_html/cli/sentry.php"
 ```
 
-- .php ini using the same auto_prepend_file .htaccess :
+- **.php ini** using the same auto_prepend_file .htaccess :
 
 ```
 php_value auto_prepend_file /home/.../public_html/cli/sentry.php
 ```
 
-- index.php - include it into the first line of the Joomla! Instance (index.php), this however only works for the frontend instance Joomla! no other scripts are covered.
+- **index.php** - include it into the first line of the Joomla! Instance (index.php). However only works for the frontend instance Joomla! no other scripts are covered.
 
 ```
 require_once '/home/.../public_html/cli/sentry.php';
