@@ -12,16 +12,9 @@ To start with the configuration, first, create a new project in Sentry and find 
 ```php
 <?php
 
-require_once JPATH_SENTRY_BASE . '/libraries/xtsentry/vendor/sentry/sentry/lib/Raven/Autoloader.php';
+require_once JPATH_ROOT.'/libraries/xtsentry/vendor/autoload.php';
+\Sentry\init(['dsn' => 'YOUR-DSN', 'environment' => 'development']);
 
-Raven_Autoloader::register();
-
-$client = new Raven_Client('YOUR-DSN', array('environment' => 'development'));
-
-$error_handler = new Raven_ErrorHandler($client);
-$error_handler->registerExceptionHandler();
-$error_handler->registerErrorHandler();
-$error_handler->registerShutdownFunction();
 ```
 
 Finally, add the **cli/sentry.php** script to the PHP initialization following one of these methods.
@@ -49,6 +42,6 @@ TIP: [Integrating Sentry's error handler in Joomla template error page](https://
 
 ## Copyright & License
 
-- Copyright (c)2007-2019 Extly, CB All rights reserved.
+- Copyright (c) 2007-2020 Extly, CB All rights reserved.
 
 - Distributed under the GNU General Public License version 3 or later; see LICENSE.txt
