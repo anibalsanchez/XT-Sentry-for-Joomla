@@ -7,7 +7,7 @@
       }
     },
     "require": {
-        "sentry/sentry": "^1.10"
+        "sentry/sentry": "2.4.1"
     },
     "require-dev": {
         "php-http/curl-client": "^1.7",
