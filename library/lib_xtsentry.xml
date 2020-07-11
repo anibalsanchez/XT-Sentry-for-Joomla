@@ -2,27 +2,25 @@
 <extension method="upgrade" type="library" version="1.0">
   <name>XT Sentry for Joomla - Library</name>
   <libraryname>xtsentry</libraryname>
-  <version>1.0.0</version>
-  <creationDate>2019-09-13</creationDate>
+  <version>2.0.0</version>
+  <creationDate>2020-07-11</creationDate>
 
 	<author>Extly, CB</author>
 	<authorEmail>team@extly.com</authorEmail>
 	<authorUrl>https://www.extly.com</authorUrl>
-	<copyright>Copyright (c)2007-2019 Extly, CB All rights reserved.</copyright>
+	<copyright>Copyright (c)2007-2020 Extly, CB All rights reserved.</copyright>
 	<license>GNU/GPLv3 www.gnu.org/licenses/gpl-3.0.html</license>
 
   <description>
     <![CDATA[
-Open-source error tracking for Joomla. An implementation of the Raven library for Sentry.
+Open-source error tracking for Joomla. An implementation of the Sentry SDK for PHP.
   ]]>
   </description>
-	<!-- <media destination="lib_xtsentry" folder="media">
+  <!-- <media destination="lib_xtsentry" folder="media">
 		<folder>app</folder>
 	</media> -->
   <files>
-    <folder>src</folder>
     <folder>vendor</folder>
-    <filename>composer.json</filename>
     <filename>lib_xtsentry.xml</filename>
   </files>
 </extension>

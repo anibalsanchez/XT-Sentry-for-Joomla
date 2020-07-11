@@ -42,6 +42,6 @@ TIP: [Integrating Sentry's error handler in Joomla template error page](https://
 
 ## Copyright & License
 
-- Copyright (c) 2007-2020 Extly, CB All rights reserved.
+- Copyright (c) 2012-2020 Extly, CB All rights reserved.
 
 - Distributed under the GNU General Public License version 3 or later; see LICENSE.txt
