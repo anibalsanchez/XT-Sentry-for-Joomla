@@ -12,7 +12,7 @@ To start with the configuration, first, create a new project in Sentry and find 
 ```php
 <?php
 
-require_once JPATH_ROOT.'/libraries/xtsentry/vendor/autoload.php';
+require_once dirname(__DIR__).'/libraries/xtsentry/vendor/autoload.php';
 \Sentry\init(['dsn' => 'YOUR-DSN', 'environment' => 'development']);
 
 ```
