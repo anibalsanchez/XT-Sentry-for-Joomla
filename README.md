@@ -14,7 +14,7 @@ To start with the configuration, first, create a new project in [Sentry's Dashbo
 ```php
 <?php
 
-# Sample: cli/sentry.php
+// Sample: cli/sentry.php
 require_once dirname(__DIR__).'/libraries/xtsentry/vendor/autoload.php';
 
 Sentry\init(['dsn' => 'https://....@......ingest.sentry.io/....']);
