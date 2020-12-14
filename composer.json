@@ -1,18 +1,50 @@
 {
   "name": "anibalsanchez/xt-sentry-for-joomla",
+  "type": "project",
   "description": "XT Sentry for Joomla Library.",
+  "keywords": [
+    "sentry",
+    "joomla",
+    "log",
+    "logging",
+    "error-monitoring",
+    "error-handler",
+    "crash-reporting",
+    "crash-reports"
+  ],
+  "homepage": "https://www.extly.com",
+  "version": "3.0.0",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Extly",
+      "email": "team@extly.com"
+    }
+  ],
   "require": {
-    "sentry/sentry": "^2.4.1"
-  },
-  "require-dev": {
-    "php-http/curl-client": "^1.7",
-    "guzzlehttp/psr7": "^1.4",
-    "php-http/message": "^1.7"
+    "php": "^7.2 || ^8.0",
+    "ext-json": "*",
+    "ext-mbstring": "*",
+    "sentry/sdk": "^3.1.0",
+    "http-interop/http-factory-guzzle": "^1.0",
+    "symfony/http-client": "^4.3|^5.0"
   },
   "config": {
-    "vendor-dir": "library/vendor",
+    "optimize-autoloader": true,
+    "platform": {
+      "php": "7.2.0"
+    },
     "preferred-install": "dist",
     "sort-packages": true,
-    "optimize-autoloader": true
+    "vendor-dir": "library/vendor"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+      "php-prefixer": {
+          "project-name": "XT Sentry for Joomla Library",
+          "namespaces-prefix": "Extly",
+          "global-scope-prefix": "XT_"
+      }
   }
 }

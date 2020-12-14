@@ -2,14 +2,14 @@
 <extension method="upgrade" type="library" version="1.0">
   <name>XT Sentry for Joomla - Library</name>
   <libraryname>xtsentry</libraryname>
-  <version>2.0.0</version>
-  <creationDate>2020-07-11</creationDate>
+  <version>3.0.0</version>
+  <creationDate>2020-12-14</creationDate>
 
 	<author>Extly, CB</author>
 	<authorEmail>team@extly.com</authorEmail>
 	<authorUrl>https://www.extly.com</authorUrl>
 	<copyright>Copyright (c)2007-2020 Extly, CB All rights reserved.</copyright>
-	<license>GNU/GPLv3 www.gnu.org/licenses/gpl-3.0.html</license>
+	<license>BSD 3-Clause License https://opensource.org/licenses/BSD-3-Clause</license>
 
   <description>
     <![CDATA[
