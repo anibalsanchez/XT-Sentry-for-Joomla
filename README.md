@@ -2,6 +2,8 @@
 
 Open-source error tracking for Joomla. An implementation of the [Sentry Client](https://github.com/getsentry/sentry-php) library for Joomla.
 
+What is Sentry? [Sentry](https://sentry.io) is a Application Monitoring and Error Tracking Software.
+
 ## Installation and configuration of Sentry
 
 To start with the configuration, first, create a new project in [Sentry's Dashboard](https://sentry.io/settings/) and find the DSN.
@@ -45,13 +47,13 @@ Finally, integrate Sentry's error handler in Joomla template error page:
 TIP: [Integrating Sentry's error handler in Joomla template error page](https://blog.anibalhsanchez.com/en/10-blogging/lost-and-found/59-integrating-sentry-s-error-handler-in-joomla-template-error-page.html)
 
 ```php
-if (file_exists(JPATH_SITE . '/cli/sentry.php'))
-{
-	require_once JPATH_SITE . '/cli/sentry.php';
+// To integrate "XT Sentry for Joomla" - https://github.com/anibalsanchez/XT-Sentry-for-Joomla
+if (file_exists(JPATH_SITE.'/cli/sentry.php')) {
+    require_once JPATH_SITE.'/cli/sentry.php';
 
-	if ($this->error instanceof \Throwable) {
-		\Sentry\captureException($this->error);
-	}
+    if ($this->error instanceof \Throwable) {
+        \Sentry\captureException($this->error);
+    }
 }
 ```
 
