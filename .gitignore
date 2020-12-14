@@ -58,3 +58,5 @@ tslint.json
 
 notes
 /tests/bootstrap.php
+
+package-lock.json
