@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+	<update>
+		<name>XT Sentry for Joomla Package</name>
+		<description>Open-source error tracking for Joomla. An implementation of the Sentry Client https://github.com/getsentry/sentry-php library for Joomla.</description>
+		<element>pkg_weblinks</element>
+		<type>package</type>
+		<version>3.0.0</version>
+		<client>site</client>
+		<infourl title="XT Sentry for Joomla Package">https://github.com/anibalsanchez/XT-Sentry-for-Joomla/releases/tag/3.0.0</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/anibalsanchez/XT-Sentry-for-Joomla/releases/download/3.0.0/XT-Sentry-for-Joomla_v3.0.0.zip</downloadurl>
+		</downloads>
+		<targetplatform name="joomla" version="3.[6789]" />
+	</update>
+</updates>

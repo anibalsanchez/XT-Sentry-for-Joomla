@@ -19,4 +19,8 @@
     <folder>vendor</folder>
     <filename>lib_[EXTENSION_ALIAS].xml</filename>
   </files>
+	<updateservers>
+		<!-- Note: No spaces or linebreaks allowed between the server tags -->
+		<server type="extension" name="[EXTENSION_NAME] Update Site">https://raw.githubusercontent.com/anibalsanchez/XT-Sentry-for-Joomla/master/manifest.xml</server>
+	</updateservers>
 </extension>
