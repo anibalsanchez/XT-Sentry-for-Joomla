@@ -428,8 +428,8 @@
         "files": [
             "library/vendor_prefixed/ralouphie/getallheaders/src/getallheaders.php",
             "library/vendor_prefixed/guzzlehttp/psr7/src/functions_include.php",
-            "library/vendor_prefixed/clue/stream-filter/src/functions_include.php",
             "library/vendor_prefixed/symfony/polyfill-php80/bootstrap.php",
+            "library/vendor_prefixed/clue/stream-filter/src/functions_include.php",
             "library/vendor_prefixed/php-http/message/src/filters.php",
             "library/vendor_prefixed/guzzlehttp/promises/src/functions_include.php",
             "library/vendor_prefixed/symfony/polyfill-php73/bootstrap.php",
