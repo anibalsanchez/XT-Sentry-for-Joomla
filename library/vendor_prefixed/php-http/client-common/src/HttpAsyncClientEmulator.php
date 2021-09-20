@@ -7,8 +7,8 @@ namespace Extly\Http\Client\Common;
 
 use Extly\Http\Client\Exception;
 use Extly\Http\Client\Promise;
-use Psr\Http\Message\RequestInterface;
-use Psr\Http\Message\ResponseInterface;
+use Extly\Psr\Http\Message\RequestInterface;
+use Extly\Psr\Http\Message\ResponseInterface;
 
 /**
  * Emulates an HTTP Async Client in an HTTP Client.

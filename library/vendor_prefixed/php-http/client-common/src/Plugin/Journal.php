@@ -5,9 +5,9 @@ declare(strict_types=1);
 
 namespace Extly\Http\Client\Common\Plugin;
 
-use Psr\Http\Client\ClientExceptionInterface;
-use Psr\Http\Message\RequestInterface;
-use Psr\Http\Message\ResponseInterface;
+use Extly\Psr\Http\Client\ClientExceptionInterface;
+use Extly\Psr\Http\Message\RequestInterface;
+use Extly\Psr\Http\Message\ResponseInterface;
 
 /**
  * Records history of HTTP calls.

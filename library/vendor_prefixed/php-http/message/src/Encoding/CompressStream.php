@@ -4,7 +4,7 @@
 namespace Extly\Http\Message\Encoding;
 
 use Extly\Clue\StreamFilter as Filter;
-use Psr\Http\Message\StreamInterface;
+use Extly\Psr\Http\Message\StreamInterface;
 
 /**
  * Stream compress (RFC 1950).

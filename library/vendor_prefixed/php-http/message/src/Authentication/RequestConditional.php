@@ -5,7 +5,7 @@ namespace Extly\Http\Message\Authentication;
 
 use Extly\Http\Message\Authentication;
 use Extly\Http\Message\RequestMatcher;
-use Psr\Http\Message\RequestInterface;
+use Extly\Psr\Http\Message\RequestInterface;
 
 /**
  * Authenticate a PSR-7 Request if the request is matching the given request matcher.

@@ -3,7 +3,7 @@
 
 namespace Extly\Http\Message\Stream;
 
-use Psr\Http\Message\StreamInterface;
+use Extly\Psr\Http\Message\StreamInterface;
 
 /**
  * Decorator to make any stream seekable.

@@ -1,4 +1,5 @@
-<?php /* This file has been prefixed by <PHP-Prefixer> for "XT Sentry for Joomla Library" */
+<?php
+/* This file has been prefixed by <PHP-Prefixer> for "XT Sentry for Joomla Library" */
 
 /*
  * This file is part of the Symfony package.

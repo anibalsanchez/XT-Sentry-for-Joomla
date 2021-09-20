@@ -4,7 +4,7 @@
 namespace Extly\Http\Message\StreamFactory;
 
 use Extly\Http\Message\StreamFactory;
-use Psr\Http\Message\StreamInterface;
+use Extly\Psr\Http\Message\StreamInterface;
 use Slim\Http\Stream;
 
 /**

@@ -6,7 +6,7 @@ declare(strict_types=1);
 namespace Extly\Http\Client\Common;
 
 use Extly\Http\Client\Common\Exception\BatchException;
-use Psr\Http\Message\RequestInterface;
+use Extly\Psr\Http\Message\RequestInterface;
 
 /**
  * BatchClient allow to sends multiple request and retrieve a Batch Result.

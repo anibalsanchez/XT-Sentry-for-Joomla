@@ -12,8 +12,8 @@ use Extly\Http\Message\CookieJar;
 use Extly\Http\Message\CookieUtil;
 use Extly\Http\Message\Exception\UnexpectedValueException;
 use Extly\Http\Promise\Promise;
-use Psr\Http\Message\RequestInterface;
-use Psr\Http\Message\ResponseInterface;
+use Extly\Psr\Http\Message\RequestInterface;
+use Extly\Psr\Http\Message\ResponseInterface;
 
 /**
  * Handle request cookies.

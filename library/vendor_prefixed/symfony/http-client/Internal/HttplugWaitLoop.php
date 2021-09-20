@@ -13,9 +13,9 @@
 namespace Extly\Symfony\Component\HttpClient\Internal;
 
 use Http\Client\Exception\NetworkException;
-use Psr\Http\Message\ResponseFactoryInterface;
-use Psr\Http\Message\ResponseInterface as Psr7ResponseInterface;
-use Psr\Http\Message\StreamFactoryInterface;
+use Extly\Psr\Http\Message\ResponseFactoryInterface;
+use Extly\Psr\Http\Message\ResponseInterface as Psr7ResponseInterface;
+use Extly\Psr\Http\Message\StreamFactoryInterface;
 use Extly\Symfony\Component\HttpClient\Response\ResponseTrait;
 use Extly\Symfony\Component\HttpClient\Response\StreamWrapper;
 use Extly\Symfony\Contracts\HttpClient\Exception\TransportExceptionInterface;

@@ -5,7 +5,7 @@ namespace Extly\Http\Message\StreamFactory;
 
 use Extly\Http\Message\StreamFactory;
 use Laminas\Diactoros\Stream as LaminasStream;
-use Psr\Http\Message\StreamInterface;
+use Extly\Psr\Http\Message\StreamInterface;
 use Zend\Diactoros\Stream as ZendStream;
 
 /**

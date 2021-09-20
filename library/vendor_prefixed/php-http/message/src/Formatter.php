@@ -3,8 +3,8 @@
 
 namespace Extly\Http\Message;
 
-use Psr\Http\Message\RequestInterface;
-use Psr\Http\Message\ResponseInterface;
+use Extly\Psr\Http\Message\RequestInterface;
+use Extly\Psr\Http\Message\ResponseInterface;
 
 /**
  * Formats a request and/or a response as a string.

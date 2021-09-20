@@ -12,7 +12,7 @@
 
 namespace Extly\Symfony\Component\HttpClient\Response;
 
-use Psr\Log\LoggerInterface;
+use Extly\Psr\Log\LoggerInterface;
 use Extly\Symfony\Component\HttpClient\Chunk\FirstChunk;
 use Extly\Symfony\Component\HttpClient\Exception\TransportException;
 use Extly\Symfony\Component\HttpClient\Internal\Canary;

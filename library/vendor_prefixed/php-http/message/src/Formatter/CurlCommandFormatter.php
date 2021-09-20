@@ -4,8 +4,8 @@
 namespace Extly\Http\Message\Formatter;
 
 use Extly\Http\Message\Formatter;
-use Psr\Http\Message\RequestInterface;
-use Psr\Http\Message\ResponseInterface;
+use Extly\Psr\Http\Message\RequestInterface;
+use Extly\Psr\Http\Message\ResponseInterface;
 
 /**
  * A formatter that prints a cURL command for HTTP requests.

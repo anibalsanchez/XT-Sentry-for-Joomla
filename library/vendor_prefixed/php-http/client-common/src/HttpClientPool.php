@@ -8,7 +8,7 @@ namespace Extly\Http\Client\Common;
 use Extly\Http\Client\Common\HttpClientPool\HttpClientPoolItem;
 use Extly\Http\Client\HttpAsyncClient;
 use Extly\Http\Client\HttpClient;
-use Psr\Http\Client\ClientInterface;
+use Extly\Psr\Http\Client\ClientInterface;
 
 /**
  * A http client pool allows to send requests on a pool of different http client using a specific strategy (least used,

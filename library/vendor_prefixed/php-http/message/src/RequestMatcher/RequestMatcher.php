@@ -4,7 +4,7 @@
 namespace Extly\Http\Message\RequestMatcher;
 
 use Extly\Http\Message\RequestMatcher as RequestMatcherInterface;
-use Psr\Http\Message\RequestInterface;
+use Extly\Psr\Http\Message\RequestInterface;
 
 /**
  * A port of the Symfony RequestMatcher for PSR-7.

@@ -3,8 +3,8 @@
 
 namespace Extly\Http\Client\Exception;
 
-use Psr\Http\Client\RequestExceptionInterface as PsrRequestException;
-use Psr\Http\Message\RequestInterface;
+use Extly\Psr\Http\Client\RequestExceptionInterface as PsrRequestException;
+use Extly\Psr\Http\Message\RequestInterface;
 
 /**
  * Exception for when a request failed, providing access to the failed request.

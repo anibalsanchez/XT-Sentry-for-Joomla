@@ -5,7 +5,7 @@ namespace Extly\Http\Message\Authentication;
 
 use Extly\Http\Message\Authentication;
 use InvalidArgumentException;
-use Psr\Http\Message\RequestInterface;
+use Extly\Psr\Http\Message\RequestInterface;
 
 /**
  * Authenticate a PSR-7 Request using WSSE.

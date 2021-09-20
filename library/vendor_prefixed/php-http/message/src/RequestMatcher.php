@@ -3,7 +3,7 @@
 
 namespace Extly\Http\Message;
 
-use Psr\Http\Message\RequestInterface;
+use Extly\Psr\Http\Message\RequestInterface;
 
 /**
  * Match a request.

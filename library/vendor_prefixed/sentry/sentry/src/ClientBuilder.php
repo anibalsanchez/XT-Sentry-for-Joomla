@@ -8,7 +8,7 @@ namespace Extly\Sentry;
 use Extly\Http\Client\HttpAsyncClient;
 use Extly\Http\Discovery\Psr17FactoryDiscovery;
 use Extly\Jean85\PrettyVersions;
-use Psr\Log\LoggerInterface;
+use Extly\Psr\Log\LoggerInterface;
 use Extly\Sentry\HttpClient\HttpClientFactory;
 use Extly\Sentry\Serializer\RepresentationSerializerInterface;
 use Extly\Sentry\Serializer\Serializer;

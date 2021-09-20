@@ -6,13 +6,13 @@ declare(strict_types=1);
 namespace Extly\Http\Client\Common;
 
 use Extly\Http\Message\RequestFactory;
-use Psr\Http\Client\ClientInterface;
-use Psr\Http\Message\RequestFactoryInterface;
-use Psr\Http\Message\RequestInterface;
-use Psr\Http\Message\ResponseInterface;
-use Psr\Http\Message\StreamFactoryInterface;
-use Psr\Http\Message\StreamInterface;
-use Psr\Http\Message\UriInterface;
+use Extly\Psr\Http\Client\ClientInterface;
+use Extly\Psr\Http\Message\RequestFactoryInterface;
+use Extly\Psr\Http\Message\RequestInterface;
+use Extly\Psr\Http\Message\ResponseInterface;
+use Extly\Psr\Http\Message\StreamFactoryInterface;
+use Extly\Psr\Http\Message\StreamInterface;
+use Extly\Psr\Http\Message\UriInterface;
 
 final class HttpMethodsClient implements HttpMethodsClientInterface
 {

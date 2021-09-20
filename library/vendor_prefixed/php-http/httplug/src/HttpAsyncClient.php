@@ -4,7 +4,7 @@
 namespace Extly\Http\Client;
 
 use Extly\Http\Promise\Promise;
-use Psr\Http\Message\RequestInterface;
+use Extly\Psr\Http\Message\RequestInterface;
 
 /**
  * Sends a PSR-7 Request in an asynchronous way by returning a Promise.

@@ -5,8 +5,8 @@ namespace Extly\Http\Factory\Guzzle;
 
 use Extly\GuzzleHttp\Psr7\Stream;
 use Extly\GuzzleHttp\Psr7\Utils;
-use Psr\Http\Message\StreamFactoryInterface;
-use Psr\Http\Message\StreamInterface;
+use Extly\Psr\Http\Message\StreamFactoryInterface;
+use Extly\Psr\Http\Message\StreamInterface;
 
 use function function_exists;
 use function Extly\GuzzleHttp\Psr7\stream_for;

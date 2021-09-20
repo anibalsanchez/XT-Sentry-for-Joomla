@@ -5,7 +5,7 @@ declare(strict_types=1);
 
 namespace Extly\Sentry\Tracing;
 
-use Psr\Http\Message\RequestInterface;
+use Extly\Psr\Http\Message\RequestInterface;
 use Extly\Sentry\SentrySdk;
 use Extly\Sentry\State\HubInterface;
 

@@ -4,8 +4,8 @@
 namespace Extly\Http\Factory\Guzzle;
 
 use Extly\GuzzleHttp\Psr7\Uri;
-use Psr\Http\Message\UriFactoryInterface;
-use Psr\Http\Message\UriInterface;
+use Extly\Psr\Http\Message\UriFactoryInterface;
+use Extly\Psr\Http\Message\UriInterface;
 
 class UriFactory implements UriFactoryInterface
 {

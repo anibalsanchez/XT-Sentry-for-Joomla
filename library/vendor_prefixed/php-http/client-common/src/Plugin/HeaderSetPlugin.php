@@ -7,7 +7,7 @@ namespace Extly\Http\Client\Common\Plugin;
 
 use Extly\Http\Client\Common\Plugin;
 use Extly\Http\Promise\Promise;
-use Psr\Http\Message\RequestInterface;
+use Extly\Psr\Http\Message\RequestInterface;
 
 /**
  * Set headers on the request.

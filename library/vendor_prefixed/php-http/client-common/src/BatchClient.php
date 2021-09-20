@@ -6,8 +6,8 @@ declare(strict_types=1);
 namespace Extly\Http\Client\Common;
 
 use Extly\Http\Client\Common\Exception\BatchException;
-use Psr\Http\Client\ClientExceptionInterface;
-use Psr\Http\Client\ClientInterface;
+use Extly\Psr\Http\Client\ClientExceptionInterface;
+use Extly\Psr\Http\Client\ClientInterface;
 
 final class BatchClient implements BatchClientInterface
 {

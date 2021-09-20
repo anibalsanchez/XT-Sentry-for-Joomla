@@ -6,7 +6,7 @@ declare(strict_types=1);
 namespace Extly\Http\Client\Common;
 
 use Extly\Http\Client\HttpAsyncClient;
-use Psr\Http\Message\RequestInterface;
+use Extly\Psr\Http\Message\RequestInterface;
 
 /**
  * Decorates an HTTP Async Client.

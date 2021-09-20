@@ -6,7 +6,7 @@ declare(strict_types=1);
 namespace Extly\Http\Client\Common\Exception;
 
 use Extly\Http\Client\Exception\TransferException;
-use Psr\Http\Message\RequestInterface;
+use Extly\Psr\Http\Message\RequestInterface;
 
 /**
  * Thrown when a http client match in the HTTPClientRouter.

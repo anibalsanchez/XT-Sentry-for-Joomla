@@ -7,8 +7,8 @@ namespace Extly\Http\Client\Common\Plugin;
 
 use Extly\Http\Client\Common\Plugin;
 use Extly\Http\Promise\Promise;
-use Psr\Http\Message\RequestInterface;
-use Psr\Http\Message\StreamInterface;
+use Extly\Psr\Http\Message\RequestInterface;
+use Extly\Psr\Http\Message\StreamInterface;
 use Extly\Symfony\Component\OptionsResolver\OptionsResolver;
 
 /**

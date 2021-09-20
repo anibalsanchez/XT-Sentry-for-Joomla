@@ -7,7 +7,7 @@ namespace Extly\Http\Client\Common\Plugin;
 
 use Extly\Http\Message\Stream\BufferedStream;
 use Extly\Http\Promise\Promise;
-use Psr\Http\Message\RequestInterface;
+use Extly\Psr\Http\Message\RequestInterface;
 
 /**
  * Allow body used in request to be always seekable.

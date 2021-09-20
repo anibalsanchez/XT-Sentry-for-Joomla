@@ -1,4 +1,5 @@
-<?php /* This file has been prefixed by <PHP-Prefixer> for "XT Sentry for Joomla Library" */
+<?php
+/* This file has been prefixed by <PHP-Prefixer> for "XT Sentry for Joomla Library" */
 
 /*
  * This file is part of the Symfony package.
@@ -11,7 +12,7 @@
 
 namespace Extly\Symfony\Contracts\Service;
 
-use Psr\Container\ContainerInterface;
+use Extly\Psr\Container\ContainerInterface;
 
 /**
  * Implementation of ServiceSubscriberInterface that determines subscribed services from

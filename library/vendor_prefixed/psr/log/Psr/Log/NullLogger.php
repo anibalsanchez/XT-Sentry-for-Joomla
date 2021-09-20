@@ -1,6 +1,6 @@
-<?php
+<?php /* This file has been prefixed by <PHP-Prefixer> for "XT Sentry for Joomla Library" */
 
-namespace Psr\Log;
+namespace Extly\Psr\Log;
 
 /**
  * This Logger can be used to avoid conditional log calls.

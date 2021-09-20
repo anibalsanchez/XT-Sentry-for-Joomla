@@ -3,7 +3,7 @@
 
 namespace Extly\Http\Message\Decorator;
 
-use Psr\Http\Message\StreamInterface;
+use Extly\Psr\Http\Message\StreamInterface;
 
 /**
  * Decorates a stream.

@@ -8,7 +8,7 @@ namespace Extly\Http\Client\Common\Plugin;
 use Extly\Http\Client\Common\Plugin;
 use Extly\Http\Message\RequestMatcher;
 use Extly\Http\Promise\Promise;
-use Psr\Http\Message\RequestInterface;
+use Extly\Psr\Http\Message\RequestInterface;
 
 /**
  * Apply a delegated plugin based on a request match.

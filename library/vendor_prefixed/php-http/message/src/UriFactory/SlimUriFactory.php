@@ -4,7 +4,7 @@
 namespace Extly\Http\Message\UriFactory;
 
 use Extly\Http\Message\UriFactory;
-use Psr\Http\Message\UriInterface;
+use Extly\Psr\Http\Message\UriInterface;
 use Slim\Http\Uri;
 
 /**

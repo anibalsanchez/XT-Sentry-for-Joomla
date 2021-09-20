@@ -1,8 +1,9 @@
-<?php /* This file has been prefixed by <PHP-Prefixer> for "XT Sentry for Joomla Library" */
+<?php
+/* This file has been prefixed by <PHP-Prefixer> for "XT Sentry for Joomla Library" */
 
 namespace Extly\GuzzleHttp\Psr7;
 
-use Psr\Http\Message\StreamInterface;
+use Extly\Psr\Http\Message\StreamInterface;
 
 /**
  * Uses PHP's zlib.inflate filter to inflate deflate or gzipped content.

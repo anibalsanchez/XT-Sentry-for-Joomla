@@ -11,9 +11,9 @@ use Extly\Http\Client\HttpClient;
 use Extly\Http\Client\Promise\HttpFulfilledPromise;
 use Extly\Http\Client\Promise\HttpRejectedPromise;
 use Extly\Http\Promise\Promise;
-use Psr\Http\Client\ClientInterface;
-use Psr\Http\Message\RequestInterface;
-use Psr\Http\Message\ResponseInterface;
+use Extly\Psr\Http\Client\ClientInterface;
+use Extly\Psr\Http\Message\RequestInterface;
+use Extly\Psr\Http\Message\ResponseInterface;
 use Extly\Symfony\Component\OptionsResolver\OptionsResolver;
 
 /**

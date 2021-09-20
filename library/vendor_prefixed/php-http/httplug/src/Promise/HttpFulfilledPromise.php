@@ -5,7 +5,7 @@ namespace Extly\Http\Client\Promise;
 
 use Extly\Http\Client\Exception;
 use Extly\Http\Promise\Promise;
-use Psr\Http\Message\ResponseInterface;
+use Extly\Psr\Http\Message\ResponseInterface;
 
 final class HttpFulfilledPromise implements Promise
 {

@@ -5,7 +5,7 @@ namespace Extly\Http\Message\UriFactory;
 
 use Extly\Http\Message\UriFactory;
 use Laminas\Diactoros\Uri as LaminasUri;
-use Psr\Http\Message\UriInterface;
+use Extly\Psr\Http\Message\UriInterface;
 use Zend\Diactoros\Uri as ZendUri;
 
 /**

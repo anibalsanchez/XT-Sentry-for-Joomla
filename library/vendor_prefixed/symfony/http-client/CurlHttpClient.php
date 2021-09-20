@@ -12,8 +12,8 @@
 
 namespace Extly\Symfony\Component\HttpClient;
 
-use Psr\Log\LoggerAwareInterface;
-use Psr\Log\LoggerAwareTrait;
+use Extly\Psr\Log\LoggerAwareInterface;
+use Extly\Psr\Log\LoggerAwareTrait;
 use Extly\Symfony\Component\HttpClient\Exception\InvalidArgumentException;
 use Extly\Symfony\Component\HttpClient\Exception\TransportException;
 use Extly\Symfony\Component\HttpClient\Internal\CurlClientState;

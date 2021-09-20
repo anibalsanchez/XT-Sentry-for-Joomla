@@ -3,7 +3,7 @@
 
 namespace Extly\Http\Message\Decorator;
 
-use Psr\Http\Message\ResponseInterface;
+use Extly\Psr\Http\Message\ResponseInterface;
 
 /**
  * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>

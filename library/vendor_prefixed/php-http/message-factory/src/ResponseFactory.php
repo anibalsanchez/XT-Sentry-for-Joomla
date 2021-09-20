@@ -1,9 +1,10 @@
-<?php /* This file has been prefixed by <PHP-Prefixer> for "XT Sentry for Joomla Library" */
+<?php
+/* This file has been prefixed by <PHP-Prefixer> for "XT Sentry for Joomla Library" */
 
 namespace Extly\Http\Message;
 
-use Psr\Http\Message\ResponseInterface;
-use Psr\Http\Message\StreamInterface;
+use Extly\Psr\Http\Message\ResponseInterface;
+use Extly\Psr\Http\Message\StreamInterface;
 
 /**
  * Factory for PSR-7 Response.

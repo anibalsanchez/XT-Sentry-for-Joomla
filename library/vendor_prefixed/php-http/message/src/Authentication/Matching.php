@@ -5,7 +5,7 @@ namespace Extly\Http\Message\Authentication;
 
 use Extly\Http\Message\Authentication;
 use Extly\Http\Message\RequestMatcher\CallbackRequestMatcher;
-use Psr\Http\Message\RequestInterface;
+use Extly\Psr\Http\Message\RequestInterface;
 
 @trigger_error('The '.__NAMESPACE__.'\Matching class is deprecated since version 1.2 and will be removed in 2.0. Use Http\Message\Authentication\RequestConditional instead.', E_USER_DEPRECATED);
 

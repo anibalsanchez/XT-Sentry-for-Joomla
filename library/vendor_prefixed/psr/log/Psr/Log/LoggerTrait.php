@@ -1,6 +1,6 @@
-<?php
+<?php /* This file has been prefixed by <PHP-Prefixer> for "XT Sentry for Joomla Library" */
 
-namespace Psr\Log;
+namespace Extly\Psr\Log;
 
 /**
  * This is a simple Logger trait that classes unable to extend AbstractLogger

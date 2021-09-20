@@ -6,7 +6,7 @@ declare(strict_types=1);
 namespace Extly\Http\Client\Common\Plugin;
 
 use Extly\Http\Promise\Promise;
-use Psr\Http\Message\RequestInterface;
+use Extly\Psr\Http\Message\RequestInterface;
 
 /**
  * A plugin that helps you migrate from php-http/client-common 1.x to 2.x. This

@@ -5,8 +5,8 @@ declare(strict_types=1);
 
 namespace Extly\Sentry\Integration;
 
-use Psr\Log\LoggerInterface;
-use Psr\Log\NullLogger;
+use Extly\Psr\Log\LoggerInterface;
+use Extly\Psr\Log\NullLogger;
 use Extly\Sentry\Event;
 use Extly\Sentry\SentrySdk;
 use Extly\Sentry\Stacktrace;

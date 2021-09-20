@@ -9,9 +9,9 @@ use Extly\Http\Client\Common\FlexibleHttpClient;
 use Extly\Http\Client\Exception;
 use Extly\Http\Client\HttpAsyncClient;
 use Extly\Http\Client\HttpClient;
-use Psr\Http\Client\ClientInterface;
-use Psr\Http\Message\RequestInterface;
-use Psr\Http\Message\ResponseInterface;
+use Extly\Psr\Http\Client\ClientInterface;
+use Extly\Psr\Http\Message\RequestInterface;
+use Extly\Psr\Http\Message\ResponseInterface;
 
 /**
  * A HttpClientPoolItem represent a HttpClient inside a Pool.

@@ -4,7 +4,7 @@
 namespace Extly\Http\Message\RequestMatcher;
 
 use Extly\Http\Message\RequestMatcher;
-use Psr\Http\Message\RequestInterface;
+use Extly\Psr\Http\Message\RequestInterface;
 
 /**
  * Match a request with a callback.

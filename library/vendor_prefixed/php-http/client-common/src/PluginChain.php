@@ -8,7 +8,7 @@ namespace Extly\Http\Client\Common;
 use function array_reverse;
 use Extly\Http\Client\Common\Exception\LoopException;
 use Extly\Http\Promise\Promise;
-use Psr\Http\Message\RequestInterface;
+use Extly\Psr\Http\Message\RequestInterface;
 
 final class PluginChain
 {

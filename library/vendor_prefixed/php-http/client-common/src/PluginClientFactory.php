@@ -6,7 +6,7 @@ declare(strict_types=1);
 namespace Extly\Http\Client\Common;
 
 use Extly\Http\Client\HttpAsyncClient;
-use Psr\Http\Client\ClientInterface;
+use Extly\Psr\Http\Client\ClientInterface;
 
 /**
  * Factory to create PluginClient instances. Using this factory instead of calling PluginClient constructor will enable

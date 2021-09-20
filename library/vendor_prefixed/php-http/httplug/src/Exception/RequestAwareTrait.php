@@ -3,7 +3,7 @@
 
 namespace Extly\Http\Client\Exception;
 
-use Psr\Http\Message\RequestInterface;
+use Extly\Psr\Http\Message\RequestInterface;
 
 trait RequestAwareTrait
 {

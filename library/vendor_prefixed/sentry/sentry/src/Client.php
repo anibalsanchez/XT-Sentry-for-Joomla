@@ -7,8 +7,8 @@ namespace Extly\Sentry;
 
 use Extly\GuzzleHttp\Promise\PromiseInterface;
 use Extly\Jean85\PrettyVersions;
-use Psr\Log\LoggerInterface;
-use Psr\Log\NullLogger;
+use Extly\Psr\Log\LoggerInterface;
+use Extly\Psr\Log\NullLogger;
 use Extly\Sentry\Integration\IntegrationInterface;
 use Extly\Sentry\Integration\IntegrationRegistry;
 use Extly\Sentry\Serializer\RepresentationSerializer;

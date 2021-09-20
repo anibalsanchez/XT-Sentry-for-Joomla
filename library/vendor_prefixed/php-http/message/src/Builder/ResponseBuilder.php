@@ -3,7 +3,7 @@
 
 namespace Extly\Http\Message\Builder;
 
-use Psr\Http\Message\ResponseInterface;
+use Extly\Psr\Http\Message\ResponseInterface;
 
 /**
  * Fills response object with values.

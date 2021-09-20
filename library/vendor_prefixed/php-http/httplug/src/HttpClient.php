@@ -3,7 +3,7 @@
 
 namespace Extly\Http\Client;
 
-use Psr\Http\Client\ClientInterface;
+use Extly\Psr\Http\Client\ClientInterface;
 
 /**
  * {@inheritdoc}

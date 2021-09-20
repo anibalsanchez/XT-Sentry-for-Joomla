@@ -1,4 +1,5 @@
-<?php /* This file has been prefixed by <PHP-Prefixer> for "XT Sentry for Joomla Library" */
+<?php
+/* This file has been prefixed by <PHP-Prefixer> for "XT Sentry for Joomla Library" */
 
 /*
  * This file is part of the Symfony package.
@@ -33,19 +34,19 @@ interface ServiceSubscriberInterface
      *
      * For mandatory dependencies:
      *
-     *  * ['logger' => 'Psr\Log\LoggerInterface'] means the objects use the "logger" name
+     *  * ['logger' => 'Extly\Psr\Log\LoggerInterface'] means the objects use the "logger" name
      *    internally to fetch a service which must implement Psr\Log\LoggerInterface.
-     *  * ['loggers' => 'Psr\Log\LoggerInterface[]'] means the objects use the "loggers" name
+     *  * ['loggers' => 'Extly\Psr\Log\LoggerInterface[]'] means the objects use the "loggers" name
      *    internally to fetch an iterable of Psr\Log\LoggerInterface instances.
-     *  * ['Psr\Log\LoggerInterface'] is a shortcut for
-     *  * ['Psr\Log\LoggerInterface' => 'Psr\Log\LoggerInterface']
+     *  * ['Extly\Psr\Log\LoggerInterface'] is a shortcut for
+     *  * ['Extly\Psr\Log\LoggerInterface' => 'Extly\Psr\Log\LoggerInterface']
      *
      * otherwise:
      *
      *  * ['logger' => '?Psr\Log\LoggerInterface'] denotes an optional dependency
      *  * ['loggers' => '?Psr\Log\LoggerInterface[]'] denotes an optional iterable dependency
      *  * ['?Psr\Log\LoggerInterface'] is a shortcut for
-     *  * ['Psr\Log\LoggerInterface' => '?Psr\Log\LoggerInterface']
+     *  * ['Extly\Psr\Log\LoggerInterface' => '?Psr\Log\LoggerInterface']
      *
      * @return array The required service types, optionally keyed by service names
      */

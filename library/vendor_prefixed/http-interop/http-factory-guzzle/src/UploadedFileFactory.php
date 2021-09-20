@@ -4,9 +4,9 @@
 namespace Extly\Http\Factory\Guzzle;
 
 use Extly\GuzzleHttp\Psr7\UploadedFile;
-use Psr\Http\Message\UploadedFileFactoryInterface;
-use Psr\Http\Message\StreamInterface;
-use Psr\Http\Message\UploadedFileInterface;
+use Extly\Psr\Http\Message\UploadedFileFactoryInterface;
+use Extly\Psr\Http\Message\StreamInterface;
+use Extly\Psr\Http\Message\UploadedFileInterface;
 
 class UploadedFileFactory implements UploadedFileFactoryInterface
 {

@@ -7,8 +7,8 @@ namespace Extly\Sentry\HttpClient\Plugin;
 
 use Extly\Http\Client\Common\Plugin as PluginInterface;
 use Extly\Http\Promise\Promise as PromiseInterface;
-use Psr\Http\Message\RequestInterface;
-use Psr\Http\Message\StreamFactoryInterface;
+use Extly\Psr\Http\Message\RequestInterface;
+use Extly\Psr\Http\Message\StreamFactoryInterface;
 
 /**
  * This plugin encodes the request body by compressing it with Gzip.

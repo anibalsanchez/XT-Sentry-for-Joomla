@@ -7,9 +7,9 @@ namespace Extly\Http\Client\Common;
 
 use Extly\Http\Client\Exception;
 use Extly\Http\Client\HttpClient;
-use Psr\Http\Message\ResponseInterface;
-use Psr\Http\Message\StreamInterface;
-use Psr\Http\Message\UriInterface;
+use Extly\Psr\Http\Message\ResponseInterface;
+use Extly\Psr\Http\Message\StreamInterface;
+use Extly\Psr\Http\Message\UriInterface;
 
 /**
  * Convenience HTTP client that integrates the MessageFactory in order to send

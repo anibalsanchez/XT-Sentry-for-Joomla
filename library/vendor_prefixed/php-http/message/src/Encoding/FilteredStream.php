@@ -5,7 +5,7 @@ namespace Extly\Http\Message\Encoding;
 
 use Extly\Clue\StreamFilter as Filter;
 use Extly\Http\Message\Decorator\StreamDecorator;
-use Psr\Http\Message\StreamInterface;
+use Extly\Psr\Http\Message\StreamInterface;
 
 /**
  * A filtered stream has a filter for filtering output and a filter for filtering input made to a underlying stream.

@@ -4,9 +4,9 @@
 namespace Extly\Http\Message\Formatter;
 
 use Extly\Http\Message\Formatter;
-use Psr\Http\Message\MessageInterface;
-use Psr\Http\Message\RequestInterface;
-use Psr\Http\Message\ResponseInterface;
+use Extly\Psr\Http\Message\MessageInterface;
+use Extly\Psr\Http\Message\RequestInterface;
+use Extly\Psr\Http\Message\ResponseInterface;
 
 /**
  * A formatter that prints the complete HTTP message.
@@ -23,11 +23,18 @@ class FullHttpMessageFormatter implements Formatter
     private $maxBodyLength;
 
     /**
-     * @param int|null $maxBodyLength
+     * @var string
      */
-    public function __construct($maxBodyLength = 1000)
+    private $binaryDetectionRegex;
+
+    /**
+     * @param int|null $maxBodyLength
+     * @param string   $binaryDetectionRegex By default, this is all non-printable ASCII characters and <DEL> except for \t, \r, \n
+     */
+    public function __construct($maxBodyLength = 1000, string $binaryDetectionRegex = '/([\x00-\x09\x0C\x0E-\x1F\x7F])/')
     {
         $this->maxBodyLength = $maxBodyLength;
+        $this->binaryDetectionRegex = $binaryDetectionRegex;
     }
 
     /**
@@ -87,8 +94,7 @@ class FullHttpMessageFormatter implements Formatter
         $data = $stream->__toString();
         $stream->rewind();
 
-        // all non-printable ASCII characters and <DEL> except for \t, \r, \n
-        if (preg_match('/([\x00-\x09\x0C\x0E-\x1F\x7F])/', $data)) {
+        if (preg_match($this->binaryDetectionRegex, $data)) {
             return $message.'[binary stream omitted]';
         }
 

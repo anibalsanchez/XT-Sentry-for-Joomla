@@ -8,9 +8,9 @@ namespace Extly\Http\Client\Common\HttpClientPool;
 use Extly\Http\Client\Common\Exception\HttpClientNotFoundException;
 use Extly\Http\Client\Common\HttpClientPool as HttpClientPoolInterface;
 use Extly\Http\Client\HttpAsyncClient;
-use Psr\Http\Client\ClientInterface;
-use Psr\Http\Message\RequestInterface;
-use Psr\Http\Message\ResponseInterface;
+use Extly\Psr\Http\Client\ClientInterface;
+use Extly\Psr\Http\Message\RequestInterface;
+use Extly\Psr\Http\Message\ResponseInterface;
 
 /**
  * A http client pool allows to send requests on a pool of different http client using a specific strategy (least used,

@@ -6,7 +6,7 @@ declare(strict_types=1);
 namespace Extly\Http\Client\Common;
 
 use Extly\Http\Client\HttpAsyncClient;
-use Psr\Http\Client\ClientInterface;
+use Extly\Psr\Http\Client\ClientInterface;
 
 /**
  * Build an instance of a PluginClient with a dynamic list of plugins.

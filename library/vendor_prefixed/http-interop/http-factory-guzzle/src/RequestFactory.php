@@ -4,8 +4,8 @@
 namespace Extly\Http\Factory\Guzzle;
 
 use Extly\GuzzleHttp\Psr7\Request;
-use Psr\Http\Message\RequestFactoryInterface;
-use Psr\Http\Message\RequestInterface;
+use Extly\Psr\Http\Message\RequestFactoryInterface;
+use Extly\Psr\Http\Message\RequestInterface;
 
 class RequestFactory implements RequestFactoryInterface
 {

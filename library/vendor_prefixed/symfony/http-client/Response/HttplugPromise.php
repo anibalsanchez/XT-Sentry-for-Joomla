@@ -14,7 +14,7 @@ namespace Extly\Symfony\Component\HttpClient\Response;
 
 use GuzzleHttp\Promise\PromiseInterface as GuzzlePromiseInterface;
 use Http\Promise\Promise as HttplugPromiseInterface;
-use Psr\Http\Message\ResponseInterface as Psr7ResponseInterface;
+use Extly\Psr\Http\Message\ResponseInterface as Psr7ResponseInterface;
 
 /**
  * @author Tobias Nyholm <tobias.nyholm@gmail.com>

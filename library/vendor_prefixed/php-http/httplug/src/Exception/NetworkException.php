@@ -3,8 +3,8 @@
 
 namespace Extly\Http\Client\Exception;
 
-use Psr\Http\Client\NetworkExceptionInterface as PsrNetworkException;
-use Psr\Http\Message\RequestInterface;
+use Extly\Psr\Http\Client\NetworkExceptionInterface as PsrNetworkException;
+use Extly\Psr\Http\Message\RequestInterface;
 
 /**
  * Thrown when the request cannot be completed because of network issues.

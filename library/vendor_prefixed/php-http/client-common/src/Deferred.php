@@ -6,8 +6,8 @@ declare(strict_types=1);
 namespace Extly\Http\Client\Common;
 
 use Extly\Http\Promise\Promise;
-use Psr\Http\Client\ClientExceptionInterface;
-use Psr\Http\Message\ResponseInterface;
+use Extly\Psr\Http\Client\ClientExceptionInterface;
+use Extly\Psr\Http\Message\ResponseInterface;
 
 /**
  * A deferred allow to return a promise which has not been resolved yet.

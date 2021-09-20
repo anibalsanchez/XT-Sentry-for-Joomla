@@ -6,7 +6,7 @@ declare(strict_types=1);
 namespace Extly\Sentry\HttpClient\Authentication;
 
 use Extly\Http\Message\Authentication as AuthenticationInterface;
-use Psr\Http\Message\RequestInterface;
+use Extly\Psr\Http\Message\RequestInterface;
 use Extly\Sentry\Client;
 use Extly\Sentry\Options;
 

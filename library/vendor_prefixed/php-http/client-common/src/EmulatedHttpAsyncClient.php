@@ -7,7 +7,7 @@ namespace Extly\Http\Client\Common;
 
 use Extly\Http\Client\HttpAsyncClient;
 use Extly\Http\Client\HttpClient;
-use Psr\Http\Client\ClientInterface;
+use Extly\Psr\Http\Client\ClientInterface;
 
 /**
  * Emulates an async HTTP client with the help of a synchronous client.

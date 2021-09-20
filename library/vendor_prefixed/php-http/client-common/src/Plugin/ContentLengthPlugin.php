@@ -8,7 +8,7 @@ namespace Extly\Http\Client\Common\Plugin;
 use Extly\Http\Client\Common\Plugin;
 use Extly\Http\Message\Encoding\ChunkStream;
 use Extly\Http\Promise\Promise;
-use Psr\Http\Message\RequestInterface;
+use Extly\Psr\Http\Message\RequestInterface;
 
 /**
  * Allow to set the correct content length header on the request or to transfer it as a chunk if not possible.

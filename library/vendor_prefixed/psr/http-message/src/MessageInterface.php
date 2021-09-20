@@ -1,6 +1,6 @@
-<?php
+<?php /* This file has been prefixed by <PHP-Prefixer> for "XT Sentry for Joomla Library" */
 
-namespace Psr\Http\Message;
+namespace Extly\Psr\Http\Message;
 
 /**
  * HTTP messages consist of requests from a client to a server and responses

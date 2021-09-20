@@ -6,7 +6,7 @@ declare(strict_types=1);
 namespace Extly\Sentry\Integration;
 
 use Extly\GuzzleHttp\Psr7\ServerRequest;
-use Psr\Http\Message\ServerRequestInterface;
+use Extly\Psr\Http\Message\ServerRequestInterface;
 
 /**
  * Default implementation for RequestFetcherInterface. Creates a request object

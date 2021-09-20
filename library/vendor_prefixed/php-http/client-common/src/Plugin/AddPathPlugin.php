@@ -7,8 +7,8 @@ namespace Extly\Http\Client\Common\Plugin;
 
 use Extly\Http\Client\Common\Plugin;
 use Extly\Http\Promise\Promise;
-use Psr\Http\Message\RequestInterface;
-use Psr\Http\Message\UriInterface;
+use Extly\Psr\Http\Message\RequestInterface;
+use Extly\Psr\Http\Message\UriInterface;
 
 /**
  * Prepend a base path to the request URI. Useful for base API URLs like http://domain.com/api.

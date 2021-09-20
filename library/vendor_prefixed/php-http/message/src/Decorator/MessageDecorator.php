@@ -3,8 +3,8 @@
 
 namespace Extly\Http\Message\Decorator;
 
-use Psr\Http\Message\MessageInterface;
-use Psr\Http\Message\StreamInterface;
+use Extly\Psr\Http\Message\MessageInterface;
+use Extly\Psr\Http\Message\StreamInterface;
 
 /**
  * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>

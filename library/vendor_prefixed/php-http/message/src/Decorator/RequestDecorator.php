@@ -3,8 +3,8 @@
 
 namespace Extly\Http\Message\Decorator;
 
-use Psr\Http\Message\RequestInterface;
-use Psr\Http\Message\UriInterface;
+use Extly\Psr\Http\Message\RequestInterface;
+use Extly\Psr\Http\Message\UriInterface;
 
 /**
  * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>

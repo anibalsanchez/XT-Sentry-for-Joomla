@@ -8,9 +8,9 @@ namespace Extly\Http\Client\Common;
 use Extly\Http\Client\Common\Exception\HttpClientNoMatchException;
 use Extly\Http\Client\HttpAsyncClient;
 use Extly\Http\Message\RequestMatcher;
-use Psr\Http\Client\ClientInterface;
-use Psr\Http\Message\RequestInterface;
-use Psr\Http\Message\ResponseInterface;
+use Extly\Psr\Http\Client\ClientInterface;
+use Extly\Psr\Http\Message\RequestInterface;
+use Extly\Psr\Http\Message\ResponseInterface;
 
 /**
  * {@inheritdoc}

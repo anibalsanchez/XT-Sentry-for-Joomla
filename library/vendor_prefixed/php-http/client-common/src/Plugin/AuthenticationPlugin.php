@@ -8,7 +8,7 @@ namespace Extly\Http\Client\Common\Plugin;
 use Extly\Http\Client\Common\Plugin;
 use Extly\Http\Message\Authentication;
 use Extly\Http\Promise\Promise;
-use Psr\Http\Message\RequestInterface;
+use Extly\Psr\Http\Message\RequestInterface;
 
 /**
  * Send an authenticated request.

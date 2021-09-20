@@ -8,7 +8,7 @@ namespace Extly\Http\Client\Common;
 use Extly\Http\Client\HttpAsyncClient;
 use Extly\Http\Client\HttpClient;
 use Extly\Http\Message\RequestMatcher;
-use Psr\Http\Client\ClientInterface;
+use Extly\Psr\Http\Client\ClientInterface;
 
 /**
  * Route a request to a specific client in the stack based using a RequestMatcher.

@@ -6,8 +6,8 @@ declare(strict_types=1);
 namespace Extly\Sentry\Integration;
 
 use Extly\GuzzleHttp\Psr7\Utils;
-use Psr\Http\Message\ServerRequestInterface;
-use Psr\Http\Message\UploadedFileInterface;
+use Extly\Psr\Http\Message\ServerRequestInterface;
+use Extly\Psr\Http\Message\UploadedFileInterface;
 use Extly\Sentry\Event;
 use Extly\Sentry\Exception\JsonException;
 use Extly\Sentry\Options;

@@ -21,7 +21,8 @@ use Extly\Http\Message\MessageFactory\DiactorosMessageFactory;
 use Extly\Http\Message\StreamFactory\DiactorosStreamFactory;
 use Extly\Http\Message\UriFactory\DiactorosUriFactory;
 use Psr\Http\Client\ClientInterface as Psr18Client;
-use Zend\Diactoros\Request as DiactorosRequest;
+use Zend\Diactoros\Request as ZendDiactorosRequest;
+use Laminas\Diactoros\Request as DiactorosRequest;
 use Extly\Http\Message\MessageFactory\SlimMessageFactory;
 use Extly\Http\Message\StreamFactory\SlimStreamFactory;
 use Extly\Http\Message\UriFactory\SlimUriFactory;
@@ -55,18 +56,21 @@ final class CommonClassesStrategy implements DiscoveryStrategy
         MessageFactory::class => [
             ['class' => NyholmHttplugFactory::class, 'condition' => [NyholmHttplugFactory::class]],
             ['class' => GuzzleMessageFactory::class, 'condition' => [GuzzleRequest::class, GuzzleMessageFactory::class]],
+            ['class' => DiactorosMessageFactory::class, 'condition' => [ZendDiactorosRequest::class, DiactorosMessageFactory::class]],
             ['class' => DiactorosMessageFactory::class, 'condition' => [DiactorosRequest::class, DiactorosMessageFactory::class]],
             ['class' => SlimMessageFactory::class, 'condition' => [SlimRequest::class, SlimMessageFactory::class]],
         ],
         StreamFactory::class => [
             ['class' => NyholmHttplugFactory::class, 'condition' => [NyholmHttplugFactory::class]],
             ['class' => GuzzleStreamFactory::class, 'condition' => [GuzzleRequest::class, GuzzleStreamFactory::class]],
+            ['class' => DiactorosStreamFactory::class, 'condition' => [ZendDiactorosRequest::class, DiactorosStreamFactory::class]],
             ['class' => DiactorosStreamFactory::class, 'condition' => [DiactorosRequest::class, DiactorosStreamFactory::class]],
             ['class' => SlimStreamFactory::class, 'condition' => [SlimRequest::class, SlimStreamFactory::class]],
         ],
         UriFactory::class => [
             ['class' => NyholmHttplugFactory::class, 'condition' => [NyholmHttplugFactory::class]],
             ['class' => GuzzleUriFactory::class, 'condition' => [GuzzleRequest::class, GuzzleUriFactory::class]],
+            ['class' => DiactorosUriFactory::class, 'condition' => [ZendDiactorosRequest::class, DiactorosUriFactory::class]],
             ['class' => DiactorosUriFactory::class, 'condition' => [DiactorosRequest::class, DiactorosUriFactory::class]],
             ['class' => SlimUriFactory::class, 'condition' => [SlimRequest::class, SlimUriFactory::class]],
         ],

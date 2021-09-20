@@ -5,7 +5,7 @@ declare(strict_types=1);
 
 namespace Extly\Sentry\Integration;
 
-use Psr\Http\Message\ServerRequestInterface;
+use Extly\Psr\Http\Message\ServerRequestInterface;
 
 /**
  * Allows customizing the request information that is attached to the logged event.

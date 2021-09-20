@@ -1,6 +1,6 @@
-<?php
+<?php /* This file has been prefixed by <PHP-Prefixer> for "XT Sentry for Joomla Library" */
 
-namespace Psr\Log\Test;
+namespace Extly\Psr\Log\Test;
 
 /**
  * This class is internal and does not follow the BC promise.

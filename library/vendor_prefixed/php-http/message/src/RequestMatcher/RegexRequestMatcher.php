@@ -4,7 +4,7 @@
 namespace Extly\Http\Message\RequestMatcher;
 
 use Extly\Http\Message\RequestMatcher;
-use Psr\Http\Message\RequestInterface;
+use Extly\Psr\Http\Message\RequestInterface;
 
 @trigger_error('The '.__NAMESPACE__.'\RegexRequestMatcher class is deprecated since version 1.2 and will be removed in 2.0. Use Http\Message\RequestMatcher\RequestMatcher instead.', E_USER_DEPRECATED);
 

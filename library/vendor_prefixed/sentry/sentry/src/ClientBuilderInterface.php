@@ -5,7 +5,7 @@ declare(strict_types=1);
 
 namespace Extly\Sentry;
 
-use Psr\Log\LoggerInterface;
+use Extly\Psr\Log\LoggerInterface;
 use Extly\Sentry\Serializer\RepresentationSerializerInterface;
 use Extly\Sentry\Serializer\SerializerInterface;
 use Extly\Sentry\Transport\TransportFactoryInterface;

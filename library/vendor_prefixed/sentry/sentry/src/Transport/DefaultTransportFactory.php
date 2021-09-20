@@ -5,9 +5,9 @@ declare(strict_types=1);
 
 namespace Extly\Sentry\Transport;
 
-use Psr\Http\Message\RequestFactoryInterface;
-use Psr\Http\Message\StreamFactoryInterface;
-use Psr\Log\LoggerInterface;
+use Extly\Psr\Http\Message\RequestFactoryInterface;
+use Extly\Psr\Http\Message\StreamFactoryInterface;
+use Extly\Psr\Log\LoggerInterface;
 use Extly\Sentry\HttpClient\HttpClientFactoryInterface;
 use Extly\Sentry\Options;
 use Extly\Sentry\Serializer\PayloadSerializer;

@@ -10,9 +10,9 @@ use Extly\Http\Client\Common\Exception\MultipleRedirectionException;
 use Extly\Http\Client\Common\Plugin;
 use Extly\Http\Client\Exception\HttpException;
 use Extly\Http\Promise\Promise;
-use Psr\Http\Message\RequestInterface;
-use Psr\Http\Message\ResponseInterface;
-use Psr\Http\Message\UriInterface;
+use Extly\Psr\Http\Message\RequestInterface;
+use Extly\Psr\Http\Message\ResponseInterface;
+use Extly\Psr\Http\Message\UriInterface;
 use Extly\Symfony\Component\OptionsResolver\OptionsResolver;
 
 /**

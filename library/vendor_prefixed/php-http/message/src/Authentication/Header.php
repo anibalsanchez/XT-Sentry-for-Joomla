@@ -4,7 +4,7 @@
 namespace Extly\Http\Message\Authentication;
 
 use Extly\Http\Message\Authentication;
-use Psr\Http\Message\RequestInterface;
+use Extly\Psr\Http\Message\RequestInterface;
 
 class Header implements Authentication
 {

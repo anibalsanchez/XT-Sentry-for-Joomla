@@ -1,4 +1,5 @@
-<?php /* This file has been prefixed by <PHP-Prefixer> for "XT Sentry for Joomla Library" */
+<?php
+/* This file has been prefixed by <PHP-Prefixer> for "XT Sentry for Joomla Library" */
 
 /*
  * This file is part of the Symfony package.
@@ -11,8 +12,8 @@
 
 namespace Extly\Symfony\Contracts\Service;
 
-use Psr\Container\ContainerExceptionInterface;
-use Psr\Container\NotFoundExceptionInterface;
+use Extly\Psr\Container\ContainerExceptionInterface;
+use Extly\Psr\Container\NotFoundExceptionInterface;
 
 // Help opcache.preload discover always-needed symbols
 class_exists(ContainerExceptionInterface::class);
